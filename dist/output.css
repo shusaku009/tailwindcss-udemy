@@ -545,6 +545,11 @@ video {
   padding: 4rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .font-poppins {
   font-family: Poppins, sans-serif;
 }
