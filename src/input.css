@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.easy-button {
+.secondary-title {
+  @apply text-3xl font-bold;
+}
+
+.secondary-title::before {
+  content: "";
+  @apply block w-12 h-2 bg-theme rounded-full mb-1;
+}
+
+.section-paragraph {
+  @apply text-secondary my-6 w-full max-w-3xl;
+}
+
+/* .easy-button {
   padding: 8px 16px;
   background-color: #467ef7;
   color: white;
@@ -25,4 +38,4 @@
 
 .btn-blue:hover {
   @apply bg-blue-600
-}
+} */
